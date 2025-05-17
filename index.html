@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Portfolio<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                
+                <div class="hero-content">
+                    <p>Hi, I am <span>Ombasa Nickey</span></p>
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                    <div class="hero-social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- You can replace this with your actual image -->
+                <img src="hero-image.jpg" alt="Professional Portrait">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm a passionate developer dedicated to creating innovative solutions...</p>
+            </div>
+            
+            <!-- About Navigation -->
+            <div class="about-nav">
+                <button class="about-tab active" data-tab="employment">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Employment</span>
+                </button>
+                <button class="about-tab" data-tab="education">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Education</span>
+                </button>
+                <button class="about-tab" data-tab="certifications">
+                    <i class="fas fa-certificate"></i>
+                    <span>Certifications</span>
+                </button>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="employment">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Senior Developer</h4>
+                            <p>Company Name | 2020 - Present</p>
+                            <p>Description of responsibilities and achievements</p>
+                        </div>
+                        <!-- Add more employment items -->
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="education">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Bachelor's in Computer Science</h4>
+                            <p>University Name | 2016 - 2020</p>
+                            <p>Relevant coursework and achievements</p>
+                        </div>
+                        <!-- Add more education items -->
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="certifications">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>AWS Certified Developer</h4>
+                            <p>Amazon Web Services | 2022</p>
+                            <p>Advanced cloud development certification</p>
+                        </div>
+                        <!-- Add more certification items -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-content">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-server"></i>
+                        <span>Express</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-docker"></i>
+                        <span>Docker</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-cloud"></i>
+                        <span>AWS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-terminal"></i>
+                        <span>CLI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Task Management App</h3>
+                    <p>A responsive task management application with real-time updates using Socket.io. Built with Vue.js and Express, featuring drag-and-drop functionality and team collaboration tools.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="project3.jpg" alt="Project 3">
+                <div class="project-info">
+                    <h3>Weather Dashboard</h3>
+                    <p>A weather forecasting dashboard that integrates with multiple weather APIs. Features include location-based weather data, interactive charts, and severe weather alerts.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="project4.jpg" alt="Project 4">
+                <div class="project-info">
+                    <h3>AI Image Generator</h3>
+                    <p>A web application that uses machine learning to generate and manipulate images. Built with TensorFlow.js and React, featuring style transfer and image synthesis capabilities.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:your.email@example.com">your.email@example.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="#" target="_blank">LinkedIn</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="#" target="_blank">GitHub</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-youtube"></i>
+                    <a href="#" target="_blank">YouTube</a>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="currentYear"></span> Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
