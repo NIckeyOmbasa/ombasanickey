@@ -87,10 +87,10 @@ const typedTextSpan = document.querySelector('.typed-text');
 const cursor = document.querySelector('.cursor');
 
 const textArray = [
-    'Full Stack Developer',
-    'Creative Problem Solver',
-    'UI/UX Enthusiast',
-    'Tech Innovator'
+    'Software Developer',
+    'Data Analyst',
+    'Trainer',
+    'AI Enthusiast',
 ];
 const typingDelay = 100;
 const erasingDelay = 50;
