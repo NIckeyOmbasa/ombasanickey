@@ -164,6 +164,11 @@ body {
     justify-content: flex-start;
     text-align: left;
 }
+.hero-content i{
+    color: var(--accent-color);
+    padding-left: 10px;
+    padding-right: 5px;
+}
 
 .hero-content p {
     font-size: 1.5rem;
